@@ -8,7 +8,7 @@
 
 O template que deveria ser seguido está abaixo para comparações:
 
-![Template](.Assets/template.png)
+![Template](./Assets/template.png)
 
 Vercel Link: [vercel](https://exemplo.com/)
 
