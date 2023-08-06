@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+header {
+  background-image: url(./Assets/pattern.jpeg);
+  margin: 1em 1em 0 1em;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 1em 0 1em;
+}
+
+h1 {
+  font-size: 6.25rem;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.brushessec {
+  background-color: mediumspringgreen;
+}
+
+.section_product-name {
+  font-weight: bold;
+  margin: 0.9em 0;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+strong {
+  font-weight: bold;
+  color: rgb(86, 86, 228);
+  text-align: center;
+}
+
+img {
+  width: 20rem;
+  margin-top: 1em;
+}
+
+.frames,
+.brushes,
+.paint {
+  margin: 0 0 0 0;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 3px 2px 30px #cecece;
+  border-radius: 10px;
+  width: 40em;
+}
+
+.frames,
+.paint {
+  margin: 0 0 0 1em;
+}
+
+.framesec {
+  background-color: lightcoral;
+}
+
+.brushessec,
+.framesec,
+.paintsec {
+  margin-bottom: 1em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.section_product-description {
+  text-align: center;
+  margin: 0 1em 1em 1em;
+  line-height: 1.3em;
+  color: rgb(92, 91, 91);
+}
+
+.paintsec {
+  background-color: skyblue;
+}
+
+.footer {
+  margin: 1em 1em 1em 1em;
+  padding: 2em;
+  background-color: rgb(190, 129, 129);
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  color: khaki;
+}
